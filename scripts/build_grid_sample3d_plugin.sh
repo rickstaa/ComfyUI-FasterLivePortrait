@@ -4,7 +4,7 @@ set -e
 PLUGIN_DIR="$1"
 BUILD_DIR="$PLUGIN_DIR/build"
 
-export TensorRT_ROOT=/opt/TensorRT-10.9.0.34/targets/x86_64-linux-gnu
+export TensorRT_ROOT=/opt/TensorRT-10.12.0.36/targets/x86_64-linux-gnu
 export LD_LIBRARY_PATH=$TensorRT_ROOT/lib:$LD_LIBRARY_PATH
 
 echo "🔵 Building grid-sample3d TensorRT plugin..."

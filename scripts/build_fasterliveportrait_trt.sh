@@ -11,7 +11,7 @@ INPUT_DIR="$1"
 ONNX_DIR="$2"
 TRT_OUTPUT_DIR="$3"
 
-export TensorRT_ROOT=/opt/TensorRT-10.9.0.34/targets/x86_64-linux-gnu
+export TensorRT_ROOT=/opt/TensorRT-10.12.0.36/targets/x86_64-linux-gnu
 export LD_LIBRARY_PATH=$TensorRT_ROOT/lib:$LD_LIBRARY_PATH
 
 PLUGIN_DIR="$INPUT_DIR/grid-sample3d-trt-plugin"
